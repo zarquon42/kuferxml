@@ -1,0 +1,110 @@
+ul.kufer-fachbereichsliste {
+	list-style-type: none;
+}
+ul.kufer-fachbereichsliste li {
+	width: 33%;
+	float: left;
+}
+@media (min-width: 750px) and (max-width: 850px) {
+
+	ul.kufer-fachbereichsliste li {
+		width: 50%;
+	}
+
+}    
+@media (max-width: 750px) {
+
+	ul.kufer-fachbereichsliste li {
+		width: 100%;
+	}
+
+}    
+ul.kufer-fachbereichsliste li.fbselected {
+	font-weight: bold;
+}
+ul.kufer-fachbereichsliste a, ul.kufer-kursliste a {
+	color: #37bdaf;
+}
+ul.kufer-kursliste {
+	list-style-type: none;
+}
+ul.kufer-kursliste li:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+.kursterminliste div.kw-table-row:nth-child(odd) {
+	background-color: #f2f2f2;	
+}
+.kufer-green {
+	float: left;
+	width: 20px;
+	background-color:#37bdaf;
+	-moz-border-radius: 9px;    /* Firefox 3.6-, removed in Firefox 13 */
+	-webkit-border-radius: 9px; /* Safari 4-, Chrome 3- */
+	border-radius: 9px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */	
+}
+.kufer-yellow {
+	float: left;
+	width: 20px;
+	background-color:#F7EE15;
+	-moz-border-radius: 9px;    /* Firefox 3.6-, removed in Firefox 13 */
+	-webkit-border-radius: 9px; /* Safari 4-, Chrome 3- */
+	border-radius: 9px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */	
+}
+.kufer-red {
+	float: left;
+	width: 20px;
+	background-color:#F80410;
+	-moz-border-radius: 9px;    /* Firefox 3.6-, removed in Firefox 13 */
+	-webkit-border-radius: 9px; /* Safari 4-, Chrome 3- */
+	border-radius: 9px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */	
+}
+@media (min-width: 850px) {
+
+	.block {
+	    width: 50%;
+	    float: left;
+	    padding-left: 15px;
+	    padding-right: 15px;
+	    box-sizing: border-box;
+	}
+}
+
+.kufer-row::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+.column {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    width: 50%;
+}
+.kw-table-row, .kw-table-header {
+    padding: 10px 0;
+}
+.kw-table-row-50 {
+	width:50%;
+}
+.kw-table-header {
+    background-color: #37bdaf;
+}
+table.kursdetails {
+	border: none;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table.kursdetails tr td {
+	border-top: 1px solid #ddd;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+table.kursdetails tr:nth-child(odd) {
+	background-color: #f2f2f2;	
+}
